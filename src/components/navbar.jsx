@@ -2,13 +2,22 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-
+import logo from '../assets/Light_Logo.png'
+import '../styles/nav.css'
 function Navigation() {
   return (
     <>
         <Navbar bg='primary' data-bs-theme="dark" expand='sm' className="bg-body-tertiary mb-3">
           <Container fluid>
-            <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+          <Navbar.Brand href="/">
+            <img 
+              src={logo}
+              width="50"
+              height="50"
+              className="d-inline-block align-top"
+              alt="Hunter LeClair logo"
+            />
+          </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-sm`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-sm`}
@@ -22,10 +31,10 @@ function Navigation() {
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-center flex-grow-1 pe-3">
-                  <Nav.Link href="/">Home</Nav.Link>
-                  <Nav.Link href="/Projects">Projects</Nav.Link>
-                  <Nav.Link href="/Contact">Contact</Nav.Link>
-                  <Nav.Link href="/Resume">Resume</Nav.Link>
+                  <Nav.Link className= 'navItem' href="/">Home</Nav.Link>
+                  <Nav.Link className= 'navItem' href="/Projects">Projects</Nav.Link>
+                  <Nav.Link className= 'navItem' href="/Contact">Contact</Nav.Link>
+                  <Nav.Link className= 'navItem' href="/Resume">Resume</Nav.Link>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
