@@ -1,0 +1,6 @@
+#projectPage {
+    background-image: url('../assets/welcomeBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5em 0em;
+}
