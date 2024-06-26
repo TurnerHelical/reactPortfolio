@@ -7,7 +7,7 @@ import '../styles/nav.css'
 function Navigation() {
   return (
     <>
-        <Navbar bg='primary' data-bs-theme="dark" expand='sm' className="bg-body-tertiary mb-3">
+        <Navbar bg='primary' data-bs-theme="dark" expand='sm' className="bg-body-tertiary ">
           <Container fluid>
           <Navbar.Brand href="/">
             <img 

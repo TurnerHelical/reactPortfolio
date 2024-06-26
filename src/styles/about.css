@@ -1,0 +1,39 @@
+
+#welcomeRow {
+    padding: 5em 0em;
+}
+
+#welcomeDiv {
+    background-image: url('../assets/welcomeBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tech{
+    background-color: #2b3035;
+    color: #c0cbcc;
+    padding: 5em 0em;
+}
+
+#about {
+    padding: 5em 0em;
+    background-image: url('../assets/welcomeBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+@media only screen and (max-width: 767px) {
+    #welcomeImage {
+        margin-bottom: 3em;
+    }
+  }
