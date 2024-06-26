@@ -1,58 +1,76 @@
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button';
+
 export default function ResumePage() {
-    return (
-      <div className="container pt-4">
-        <p>
-            resume page
-        </p>
-        <section className="features-icons bg-light text-center m-4">
-          <div className="container">
-            <div className="row p-2">
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-window m-auto text-primary" />
-                  </div>
-                  <h3>Fully Responsive</h3>
-                  <p className="lead mb-0">
-                    This theme will look great on any device, no matter the size!
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-layers m-auto text-primary" />
-                  </div>
-                  <h3>Bootstrap 5 Ready</h3>
-                  <p className="lead mb-0">
-                    Featuring the latest build of the new Bootstrap 5 framework!
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="features-icons-item mx-auto mb-0 mb-lg-3">
-                  <div className="features-icons-icon d-flex">
-                    <i className="bi-terminal m-auto text-primary" />
-                  </div>
-                  <h3>Easy to Use</h3>
-                  <p className="lead mb-0">
-                    Ready to use with your own content, or customize the source
-                    files!
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-          tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-          impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-          architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-          adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-          mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-          nostrum temporibus ad omnis nam rerum eligendi.
-        </p>
-      </div>
-    );
-  }
+  return (
+    <Container fluid>
+      <h1>Resume Page</h1>
+      <p>This page contains my skills, education, certificates, and a downloadable copy of my resume.</p>
+
+      <Row>
+        <h3>Skills</h3>
+        <Col>
+          <h4>Languages</h4>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>SQL</li>
+            <li>MQL</li>
+          </ul>
+        </Col>
+        <Col>
+          <h4>Frameworks</h4>
+          <ul>
+            <li>Bootstrap</li>
+            <li>Materialize</li>
+            <li>REACT</li>
+            <li>Node</li>
+            <li>Express</li>
+          </ul>
+        </Col>
+        <Col>
+          <h4>Other</h4>
+          <ul>
+            <li>GitHub</li>
+            <li>PostgreSQL</li>
+            <li>MongoDB</li>
+            <li>RESTful API's</li>
+            <li>Apollo GraphQL</li>
+          </ul>
+        </Col>
+      </Row>
+
+      <Row>
+        <h3>Education</h3>
+        <Col>
+          <h4>UCF</h4>
+          <p>Date Attended: March 2024 - June 2024</p>
+          <p>Graduated with Certification</p>
+          <p>12 - week intensive bootcamp with a focus on Full Stack Web Development</p>
+        </Col>
+        <Col>
+          <h4>Sarasota High School</h4>
+          <p>Date Attended: September 2005 - May 2010</p>
+          <p>Graduated with High School Diploma</p>
+        </Col>
+      </Row>
+
+      <Row>
+        <h3>Certificates</h3>
+        <h4>UCF Coding Boot Camp (Full-Stack Web Development)[Full-Time]</h4>
+      </Row>
+
+      <Row>
+        <h2>Download</h2>
+        <Col>
+          <a href="https://docs.google.com/document/d/1E4oEbslSumCWTRv1V5xcVACMnuWevZZkxwKBFBTSGQw/edit?usp=sharing" download>
+            <Button variant="primary">Download Resume</Button>
+          </a>
+        </Col>
+      </Row>
+    </Container>
+  );
+}
