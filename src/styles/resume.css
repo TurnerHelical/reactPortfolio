@@ -1,0 +1,90 @@
+#resumeTitle {
+    background-image: url('../assets/welcomeBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#skillSection {
+    background-color: #2b3035;
+    color: #c0cbcc;
+}
+
+#eduSection {
+    background-image: url('../assets/welcomeBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#empSection {
+    background-color: #2b3035;
+    color: #c0cbcc;
+}
+
+#certSection {
+    background-image: url('../assets/welcomeBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.empTitle {
+    color: white;
+}
+
+#empSection .emp-col {
+    border-right: 1px solid #ccc;
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+  
+  #empSection .emp-col:last-child {
+    border-right: none;
+  }
+  /* Skills Section */
+#skillList .skill-col {
+    border-right: 1px solid #ccc;
+    padding: 0 20px;
+    margin-bottom: 30px;
+  }
+  
+  #skillList .skill-col:last-child {
+    border-right: none;
+  }
+  
+  /* Education Section */
+  #eduList .edu-col {
+    border-right: 1px solid #ccc;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    
+  }
+  
+  #eduList .edu-col:last-child {
+    border-right: none;
+  }
+  
+  @media (max-width: 991px) {
+    #skillList .skill-col,
+    #eduList .edu-col {
+      border-right: none;
+      border-bottom: 1px solid #ccc;
+      padding: 20px 0;
+    }
+  
+    #skillList .skill-col:last-child,
+    #eduList .edu-col:last-child {
+      border-bottom: none;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    #empSection .emp-col {
+      border-right: none;
+      border-bottom: 1px solid #ccc;
+      padding: 20px 0;
+    }
+  
+    #empSection .emp-col:last-child {
+      border-bottom: none;
+    }
+  }
