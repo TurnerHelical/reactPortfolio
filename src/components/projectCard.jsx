@@ -6,7 +6,7 @@ function ProjectCard({ title, imageUrl, description, link }) {
     <Card 
       style={{ width: '18rem', cursor: 'pointer' }} 
       onClick={() => window.open(link, '_blank', 'noopener,noreferrer')}
-      className='m-2'
+      className='m-3'
     >
       <Card.Img variant="top" src={imageUrl} />
       <Card.Body>

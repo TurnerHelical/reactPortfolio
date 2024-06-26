@@ -36,7 +36,7 @@ function ContactForm() {
     <Container className='pb-5'>
       <Row className="justify-content-md-center">
         <Col md={6}>
-          <h2 className="mt-5 mb-3 text-center">Contact Me</h2>
+          <h1 className="mt-5 mb-3 text-center">Contact Me</h1>
           {status === 'success' && <Alert variant="success">Message sent successfully!</Alert>}
           {status === 'error' && <Alert variant="danger">Failed to send message. Please try again.</Alert>}
           <Form onSubmit={handleSubmit}>

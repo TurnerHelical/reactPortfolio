@@ -16,7 +16,7 @@ export default function AboutPage() {
               <Image src={logo} alt="Logo" fluid />
             </Col>
             <Col xs={12} md={7} lg={6} className="text-col">
-              <h2>WELCOME TO MY SITE</h2>
+              <h1 className='fancy welcomeTitle'>WELCOME TO MY SITE</h1>
               <p>Thanks for visiting my site! My name is Hunter LeClair and I'm a full stack developer. I recently completed the UCF Coding Bootcamp and I'm searching for my start in web development. Feel free to look around my site and view previous projects, my resume, or contact me if you have any questions. Thanks!</p>
             </Col>
           </Row>

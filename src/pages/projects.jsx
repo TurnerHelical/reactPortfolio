@@ -8,7 +8,7 @@ import '../styles/projects.css'
 export default function ProjectsPage() {
   return (
     <div id='projectPage'>
-    <Container>
+    <Container className='text-center'>
       <h1>Project Page</h1>
       <p>This page contains links to the GitHub repostories of some of my completed projects.</p>
       <Row>
