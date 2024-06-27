@@ -60,19 +60,19 @@ export default function ResumePage() {
           </Col>
         </Row>
         <Row className='text-center pb-5' id='eduList'>
-          <Col md={12} lg={6} className="edu-col">
+          <Col md={12} lg={4} className="edu-col">
             <h5>UCF</h5>
             <p>Date Attended: March 2024 - June 2024</p>
             <p>Graduated with Certification</p>
             <p>12 - week intensive bootcamp with a focus on Full Stack Web Development</p>
           </Col>
-          <Col md={12} lg={6} className="edu-col">
+          <Col md={12} lg={4} className="edu-col">
             <h5>Suncoast Technical College</h5>
             <p>Date Attended: August 2019 - February 2020</p>
             <p>Graduated with A+ and Net+ certifications</p>
             <p>8 -month long course to learn the basics of IT and get the A+ and Net+ certifications</p>
           </Col>
-          <Col md={12} lg={6} className="edu-col">
+          <Col md={12} lg={4} className="edu-col">
             <h5>Sarasota High School</h5>
             <p>Date Attended: September 2005 - May 2010</p>
             <p>Graduated with High School Diploma</p>
