@@ -13,11 +13,11 @@ export default function Footer() {
                         <p>Thanks for visiting! Here are some links where you can find more of me! </p>
 
                        <Col className='col-auto'>
-                       <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"><FaGithub size={50} /></a>
+                       <a href="https://github.com/TurnerHelical" target="_blank" rel="noopener noreferrer"><FaGithub size={50} /></a>
                        </Col>
 
                        <Col className='col-auto'>
-                       <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer"><FaLinkedin size={50} /></a>
+                       <a href="https://www.linkedin.com/in/hunter-leclair-51039b2bb/" target="_blank" rel="noopener noreferrer"><FaLinkedin size={50} /></a>
                        </Col>
                         <p>This site was created with REACT</p>
 

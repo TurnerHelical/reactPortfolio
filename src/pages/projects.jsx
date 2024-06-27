@@ -12,7 +12,6 @@ export default function ProjectsPage() {
       <h1>Project Page</h1>
       <p>This page contains links to the GitHub repostories of some of my completed projects.</p>
       <Row>
-      <h2>Projects</h2>
       {projectsData.map(project => (
         <ProjectCard
           key={project.id}
